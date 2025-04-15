@@ -6,7 +6,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 vacation_image = genai.upload_file(
-   path="social_media_festa.png"
+   path="aula_2.4/imagens/social_media_festa.png"
 )
 
 prompt = (

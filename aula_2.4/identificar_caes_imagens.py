@@ -6,7 +6,8 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 dog_image = genai.upload_file(
-   path="cachorro_collie_acho.png"
+   # path="aula_2.4/imagens/cachorro_collie_acho.png"
+   path="aula_2.4/imagens/cachorro_golden_retriever.png"
 )
 
 

@@ -6,7 +6,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 food_plate = genai.upload_file(
-   path="prato_de_comida.png"
+   path="aula_2.4/imagens/prato_de_comida.png"
 )
 
 prompt = "Pode identificar com cuidado o que é servido nesse prato e estimar grosseiramente as suas calorias?"
